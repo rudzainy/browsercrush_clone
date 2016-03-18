@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calc-U-Later</title>
+    <!--  make stylesheet -->
+</head>
+<body style="font-family: sans-serif; text-align: center;">
+    <h1>Calc U Later!</h1>
+    <div style="margin: 0 auto; background-color: gold; padding: 50px; border-radius: 10px; max-width: 600px;">
+        <form action="/" method = "post">
+            <input type="text" name="first_value" value=<%= @first_number %> style="width: 100px; height: 70px; font-size: 34px; text-align: center; border-radius: 5px; border: 1px solid gray;" autofocus></input>
+            <select name="operator" style="width: 85px; height: 75px; background: white; line-height: 75px; font-size: 34px; text-align: center; border: 1px solid gray;" >
+                <option value="add">&plus;</option>
+                <option value="min">&minus;</option>
+                <option value="div">&divide;</option>
+                <option value="mul" >&times;</option>
+            </select>
+            <input type="text" name="second_value" value=<%= @second_number %> style="width: 100px; height: 70px; font-size: 34px; text-align: center; border-radius: 5px; border: 1px solid gray;"></input>
+            <input type="submit" style="height: 75px; font-size: 34px; text-align: center; border-radius: 5px; border: 1px solid gray; padding: 10px 20px; background-color: #38ae67; color: white;"></input>
+        </form>
+        <input type="text" style="width: 450px; height: 70px; font-size: 34px; text-align: center; border-radius: 5px; border: 1px solid gray; margin-top: 20px" placeholder="Answer" value=<%= @result %>></input>
+    </div>
+</body>
+</html>
