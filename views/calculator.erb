@@ -7,13 +7,13 @@
 <body>
     <h1>Calc U Later!</h1>
     <div class="container">
-        <form action="/" method = "post">
+        <form action="/calculator" method = "post">
             <input type="text" name="first_value" class="input-box" value="<%= @first_value %>" autofocus></input>
-            <select name="operator" class="operator-box">
-                <option value="add">&plus;</option>
-                <option value="min">&minus;</option>
-                <option value="div">&divide;</option>
-                <option value="mul">&times;</option>
+            <select name="math_operator" class="operator-box">
+                <option value="+">&plus;</option>
+                <option value="-">&minus;</option>
+                <option value="/">&divide;</option>
+                <option value="*">&times;</option>
             </select>
             <input type="text" name="second_value" class="input-box" value="<%= @second_value%>"></input>
             <input type="submit" class="input-submit"></input>
