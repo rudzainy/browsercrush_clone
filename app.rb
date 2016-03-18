@@ -2,7 +2,7 @@ require 'sinatra'
 require 'erb'
 
 # This gives you the homepage of your app.
-root '/calculator' do
+get '/calculator' do
   erb :calculator
 end
 
