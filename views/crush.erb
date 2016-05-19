@@ -13,9 +13,20 @@
     <div class="container">
       <div class="intro">
         <h1>BrowserCrush</h1>
-        <button class="btn btn-default" id='start'>Start!</button>
+        <h3>Gain points when you close windows.</h3>
+        <h3>Lose points when you don't.</h3>
+        <button class="btn btn-success" id='start'>Start!</button>
       </div>
       <div class="browser">
+      </div>
+    </div>
+    <div id="scorebox">
+      <div id="lives">♥️ ♥️ ♥️️</div>
+      <div id="score">Score: <span id="update-score">0</span></div>
+    </div>
+    <div id="game-over">
+      <div id="final-score">Final score: <span></span><br>
+      <button class="btn btn-success" id='restart'>Restart Game</button>
       </div>
     </div>
   </body>
