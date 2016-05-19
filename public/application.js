@@ -54,11 +54,11 @@ $(document).ready(function() {
 		  				<div class="browser-close"></div>\
 		  			</div>\
 		  		</div>');
-		  	$('.browser').last().css('z-index', index + 1).css('top', top + 'px').css('left', left + 'px').append('<img src="/images/' + Math.floor((Math.random() * 4) + 1) + '.jpg">').css('height', 'auto').css('display', 'block')
+		  	$('.browser').last().css('z-index', index + 1).css('top', top + 'px').css('left', left + 'px').append('<img src="http://www.browsercrush.com/popups/image_' + Math.floor((Math.random() *  60) + 1) + '.gif">').css('height', 'auto').css('display', 'block')
 		  	index += 1;
 				score -= 1;
 				$('#update-score').html(score);
-	  	}, 750);
+	  	}, 350);
   	};
   	if(life === 0) {
   		$('#final-score span').html(score);
@@ -80,11 +80,11 @@ $(document).ready(function() {
 		  				<div class="browser-close"></div>\
 		  			</div>\
 		  		</div>');
-		  	$('.browser').last().css('z-index', index + 1).css('top', top + 'px').css('left', left + 'px').append('<img src="/images/' + Math.floor((Math.random() * 4) + 1) + '.jpg">').css('height', 'auto').css('display', 'block')
+		  	$('.browser').last().css('z-index', index + 1).css('top', top + 'px').css('left', left + 'px').append('<img src="http://www.browsercrush.com/popups/image_' + Math.floor((Math.random() *  60) + 1) + '.gif">').css('height', 'auto').css('display', 'block')
 		  	index += 1;
 				score -= 1;
 				$('#update-score').html(score);
-	  	}, 750);
+	  	}, 350);
 	  };
   	if(life === 0) {
   		$('#final-score span').html(score);
