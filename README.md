@@ -1,7 +1,7 @@
 # Browser Crush Clone
 This is a clone of http://www.browsercrush.com/
 
-Built using Ruby
+Built using Ruby, HTML, CSS and Javascript.
 
 ## Setup
 1. Download the source files.
