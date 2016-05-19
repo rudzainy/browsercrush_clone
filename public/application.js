@@ -58,7 +58,7 @@ $(document).ready(function() {
 		  	index += 1;
 				score -= 1;
 				$('#update-score').html(score);
-	  	}, 500);
+	  	}, 750);
   	};
   	if(life === 0) {
   		$('#final-score span').html(score);
@@ -84,7 +84,7 @@ $(document).ready(function() {
 		  	index += 1;
 				score -= 1;
 				$('#update-score').html(score);
-	  	}, 500);
+	  	}, 750);
 	  };
   	if(life === 0) {
   		$('#final-score span').html(score);
