@@ -1,3 +1,30 @@
+const DATASET = [
+	"10400376_132225319544_8304899_n.jpeg",
+	"21462649_10155102992728460_2795738114477470255_n.jpeg",
+	"70749792_10156914013949545_8267946219578327040_n.jpeg",
+	"eezeejob.png",
+	"IMG_2256-768x1024.jpeg",
+	"jkm.jpg",
+	"kontact-app-1.png",
+	"MARCO.jpg",
+	"MMA-localStorage.png",
+	"na-lp-wireframe_draft.png",
+	"na-lp.png",
+	"PEMM.jpg",
+	"rudzainy_dot_com_old.gif",
+	"Screen-Shot-2018-05-14-at-1-03-42-PM.png",
+	"Screenshot_2023-12-25_at_8-48-43_PM.png",
+	"Screenshot-2022-01-27-at-2-43-02-PM-730x1024.jpeg",
+	"Screenshot-2022-01-27-at-2-47-23-PM-1024x774.jpeg",
+	"Screenshot-2022-01-27-at-3-11-13-PM-1-1024x445.jpeg",
+	"Screenshot-2022-01-27-at-3-14-21-PM-1024x668.jpeg",
+	"Users_rudzainy_Google20Drive_PostCo_Mails_postco_mail_collection_arrive.png",
+	"Users_rudzainy_Google20Drive_PostCo_Mails_postco_mail_return_returned.png",
+	"Web-1280-1.png"
+]
+
+const IMG_URL = "https://rudzainy.my/assets/img/resized/320/"
+
 $(document).ready(function() {
 	var score = 0,
 			life = 3,
@@ -27,7 +54,7 @@ $(document).ready(function() {
 	  				<div class="browser-close"></div>\
 	  			</div>\
 	  		</div>');
-	  	$('.browser').last().css('z-index', index + 1).css('top', top + 'px').css('left', left + 'px').append('<img src="http://www.browsercrush.com/popups/image_' + Math.floor((Math.random() *  60) + 1) + '.gif">').css('height', 'auto').css('display', 'block')
+	  	$('.browser').last().css('z-index', index + 1).css('top', top + 'px').css('left', left + 'px').append('<img src="' + IMG_URL + DATASET[(Math.floor(Math.random() * 22))] + '">').css('height', 'auto').css('display', 'block')
 	  	index += 1;
 			score -= 1;
 			$('#update-score').html(score);
@@ -54,7 +81,7 @@ $(document).ready(function() {
 		  				<div class="browser-close"></div>\
 		  			</div>\
 		  		</div>');
-		  	$('.browser').last().css('z-index', index + 1).css('top', top + 'px').css('left', left + 'px').append('<img src="http://www.browsercrush.com/popups/image_' + Math.floor((Math.random() *  60) + 1) + '.gif">').css('height', 'auto').css('display', 'block')
+		  	$('.browser').last().css('z-index', index + 1).css('top', top + 'px').css('left', left + 'px').append('<img src="' + IMG_URL + DATASET[(Math.floor(Math.random() * 22))] + '">').css('height', 'auto').css('display', 'block')
 		  	index += 1;
 				score -= 1;
 				$('#update-score').html(score);
@@ -80,7 +107,7 @@ $(document).ready(function() {
 		  				<div class="browser-close"></div>\
 		  			</div>\
 		  		</div>');
-		  	$('.browser').last().css('z-index', index + 1).css('top', top + 'px').css('left', left + 'px').append('<img src="http://www.browsercrush.com/popups/image_' + Math.floor((Math.random() *  60) + 1) + '.gif">').css('height', 'auto').css('display', 'block')
+		  	$('.browser').last().css('z-index', index + 1).css('top', top + 'px').css('left', left + 'px').append('<img src="' + IMG_URL + DATASET[(Math.floor(Math.random() * 22))] + '">').css('height', 'auto').css('display', 'block')
 		  	index += 1;
 				score -= 1;
 				$('#update-score').html(score);

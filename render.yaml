@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: browsercrush_clone
+    env: ruby
+    buildCommand: "./render-build.sh"
+    startCommand: "bundle exec ruby app.rb- p $PORT"
